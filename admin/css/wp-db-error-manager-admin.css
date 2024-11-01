@@ -1,0 +1,79 @@
+.wp-db-error-screenshot-container {
+	padding: 0px 20px;
+}
+
+.wp-db-error-screenshot, .wp-db-error-screenshot-inactive {
+	border: solid medium lightblue;
+}
+
+.wp-db-error-screenshot:hover {
+	border-color: blue;
+}
+
+.wp-db-error-screenshot-individual-container {
+    height: 200px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.wp-db-error-screenshot-individual-container:hover {
+    border: solid medium lightblue;
+}
+
+.wp-db-error-settings-header {
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.wp-db-error-custom-image-url {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.wp-db-error-custom-image-url input {
+	margin-bottom: 15px;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-db-error-custom-image-url img {
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wpde-generated_file_content_container, .generated_preview_content_container {
+	margin-top: 25px;
+}
+
+.wpde-generated_file_content_container textarea, .generated_preview_content_container textarea {
+	height: 400px;
+}
+
+.wp-db-error-custom-image-url div.add-margin {
+	margin-bottom: 20px;
+}
+
+.wpde-checkbox input {
+    margin-top: 1px !important;
+}
+
+.wpde-login-container {
+	padding: 10px 30px !important;
+}
+
+/* GENERAL CSS */
+
+.wpde-textarea {
+	min-height: 150px;
+}
+
+.wpde-error-container {
+    padding: 10px;
+}
+
+.wpde-alert-con ul {
+	list-style-type: circle;
+	padding: 15px;
+}

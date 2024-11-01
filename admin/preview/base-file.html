@@ -1,0 +1,17 @@
+<?php header('HTTP/1.1 503 Service Unavailable'); ?>
+<?php header('wp_db_error_manager: active'); ?>
+<!doctype html>
+<title>{{PAGE_TITLE}}</title>
+<style>
+  body { text-align: center; padding: 150px;background-image: url("{{BACKGROUND_URL}}");background-repeat: no-repeat;background-size: cover;}
+  h1 { font-size: 50px; }
+  body { font: 20px Helvetica, sans-serif; color: #333; }
+  article { display: block; text-align: left; width: 650px; margin: 0 auto; background-color: rgba(0, 0, 0, 0.5);color: #FFF;padding: 25px;border-radius: 5px;}
+  a { color: #dc8100; text-decoration: none; }
+  a:hover { color: #ffc97b; text-decoration: none; }
+</style>
+
+<article>
+    <h1>{{CONTENT_TITLE}}</h1>
+    <div>{{CONTENT_DESCRIPTION}}</div>
+</article>
